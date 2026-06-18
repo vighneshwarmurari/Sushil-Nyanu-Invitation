@@ -30,7 +30,7 @@ body{background:#0a1710;display:flex;align-items:center;justify-content:center;m
 .arch-scene{position:relative;width:100%;height:500px;z-index:3;overflow:hidden;background:transparent;}
 .traditional-frame {position:absolute;inset:0;background: linear-gradient(180deg, rgba(6,66,39,0.08) 0%, transparent 100%);pointer-events:none;z-index:2}
 
-/* SECURE TOP FIXED LAYER - Prevents displacement elements from pushing items down */
+/* SECURE TOP FIXED LAYER */
 .top-decorations-container {position:absolute;top:0;left:0;width:100%;height:150px;z-index:9;pointer-events:none;}
 
 /* Om Text */
@@ -60,13 +60,13 @@ body{background:#0a1710;display:flex;align-items:center;justify-content:center;m
 .mandala-left {left:32px;}
 .mandala-right {right:32px;}
 
-/* RE-ENHANCED & LARGER BACKDROP CIRCLE DESIGN FOR TRANSPARENT PIC */
+/* BACKDROP CIRCLE DESIGN FOR PHOTO */
 .royal-arch-backdrop {
   position: absolute;
   bottom: 0px;
   left: 50%;
   transform: translateX(-50%);
-  width: 350px; /* Expanded sizing to fit larger pic */
+  width: 350px;
   height: 400px;
   background: rgba(184, 144, 71, 0.03);
   border: 2px dashed rgba(184, 144, 71, 0.35);
@@ -79,14 +79,14 @@ body{background:#0a1710;display:flex;align-items:center;justify-content:center;m
   bottom:0px;
   left:50%;
   transform:translateX(-50%);
-  width:420px; /* Enlarged glow */
+  width:420px;
   height:420px;
   background:radial-gradient(circle, rgba(184,144,71,0.25) 0%, rgba(246,238,219,0) 70%);
   z-index:4;
   pointer-events:none;
 }
 
-/* Couple Frame - Substantially maximized and centered perfectly */
+/* Couple Frame - Perfected fit and centering */
 .couple-wrap{position:absolute;bottom:0px;left:50%;transform:translateX(-50%);width:370px;height:430px;z-index:5;animation:coupleReveal 1.2s ease-out both}
 @keyframes coupleReveal{from{opacity:0;transform:translateX(-50%) translateY(15px)}to{opacity:1;transform:translateX(-50%) translateY(0)}}
 .couple-wrap img{width:100%;height:100%;object-fit:contain;object-position:bottom center;filter:drop-shadow(0 10px 25px rgba(0,0,0,0.18))}
@@ -244,7 +244,8 @@ body{background:#0a1710;display:flex;align-items:center;justify-content:center;m
     <div class="couple-aura"></div>
 
     <div class="couple-wrap">
-      <img src="https://drive.google.com/file/d/1jmtGDH_hfNOdsYMrpzcSNCaZOZthMUDT/view?usp=sharing" alt="Sushil & Gyaneshwari">
+      <!-- CONVERTED DIRECT DRIVE LINK TO FIXED IMAGE BYPASS -->
+      <img src="https://thumbnail.ws.126.net/fimg/fmn.lh3.googleusercontent.com/d/1jmtGDH_hfNOdsYMrpzcSNCaZOZthMUDT" alt="Sushil & Gyaneshwari" onerror="this.src='https://drive.google.com/uc?export=download&id=1jmtGDH_hfNOdsYMrpzcSNCaZOZthMUDT'">
     </div>
 
     <div class="photo-base-garland"></div>
@@ -255,7 +256,7 @@ body{background:#0a1710;display:flex;align-items:center;justify-content:center;m
       <p class="invite-tag">You are invited to</p>
       <h3 class="main-title">The Wedding Of</h3>
       <h1 class="name-groom">Sushil Ashok Kalastri</h1>
-      <span class="amp">&</span>
+      <span class="amp">&amp;</span>
       <h1 class="name-bride">Gyaneshwari Srinivas Murari</h1>
     </div>
 
